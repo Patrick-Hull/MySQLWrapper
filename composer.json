@@ -1,0 +1,24 @@
+{
+    "name": "patrick-hull/mysql-wrapper",
+    "description": "A Wrapper for simple MySQL statements that uses Prepared Statements",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PatrickHull\\MysqlWrapper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Patrick Hull",
+            "email": "patrick.hull1996@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-mysqli": "*",
+      "ext-redis": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
