@@ -21,7 +21,7 @@ Note: This software is still considered in beta. Use at your own risk
 You can install the package via Composer. Run the following command:
 
 ```bash
-composer require patrick-hull/mysqlwrapper
+composer require patrick-hull/mysql-wrapper
 ```
 
 ## Usage
